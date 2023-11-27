@@ -46,3 +46,10 @@ pause
 @echo Installing connection cards drivers (Ethernet, WiFi, Bluetooth) ...
 pause
 %devmgmt%
+
+::
+:: Update winget.
+::
+@echo Updating winget ...
+pause
+start https://apps.microsoft.com/store/detail/programma-di-installazione-app/9NBLGGH4NNS1
