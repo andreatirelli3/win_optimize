@@ -58,3 +58,23 @@ start https://apps.microsoft.com/store/detail/programma-di-installazione-app/9NB
 @echo Installing DirectX, Visual C++ Runtime 2005-22 and .NET v7
 pause
 start powershell "& ""C:\Windows\Setup\Scripts\drivers\win-base\win-base.ps1"""
+
+::
+:: Base programs.
+::
+@echo Installing programms ...
+pause
+start powershell -windowstyle normal "& ""C:\Windows\Setup\config\installers\installer.ps1"""
+
+:: Program default installers (no winget avaible).
+:: Process Lasso
+pause
+"C:\Windows\Setup\config\installers\extra\processlassosetup64.exe"
+
+:: MSI Afterburner + Riva Tuner
+pause
+"C:\Windows\Setup\config\installers\extra\msiafterburner.exe"
+
+:: Battle.net
+pause
+"C:\Windows\Setup\config\installers\extra\battlenet.exe"
