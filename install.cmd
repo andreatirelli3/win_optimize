@@ -57,4 +57,4 @@ start https://apps.microsoft.com/store/detail/programma-di-installazione-app/9NB
 :: DirectX, Visual C++ 2015-22 and .NET
 @echo Installing DirectX, Visual C++ Runtime 2005-22 and .NET v7
 pause
-start powershell "& ""C:\Windows\Setup\Scripts\drivers\dxvs.ps1"""
+start powershell "& ""C:\Windows\Setup\Scripts\drivers\win-base\win-base.ps1"""

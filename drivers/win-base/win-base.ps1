@@ -1,3 +1,5 @@
+# This PowerShell script installs various runtime components required for application development and execution.
+
 # DirectX
 winget install -e --id Microsoft.DirectX
 
@@ -19,7 +21,7 @@ winget install -e --id Microsoft.VCRedist.2012.x64
 
 # Visual C++ Runtime 2013 32/64bit
 winget install -e --id Microsoft.VCRedist.2013.x86
-winget install -e --id Microsoft.VCRedist.2015+.x64
+winget install -e --id Microsoft.VCRedist.2013.x64
 
 # Visual C++ Runtime 2015+ 32/64bit
 winget install -e --id=Microsoft.VCRedist.2015+.x86
